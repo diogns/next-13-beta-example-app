@@ -1,0 +1,11 @@
+{
+  // "extends": "next/core-web-vitals"
+  "extends": [
+    "./node_modules/standard/eslintrc.json",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "indent": ["error", 4],
+    "react/jsx-indent": ["error", 4]
+  }
+}
